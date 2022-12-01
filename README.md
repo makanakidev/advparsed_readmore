@@ -10,7 +10,7 @@ For general information about developing packages, see the Dart guide for
 and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
-# **Parsed Readmore**
+# **AdvParsed Readmore**
 
 A package which allows to enter text which can be collapsed and expanded. Moreover, it will automatically parse the urls present in the text into hyperlinks.
 
