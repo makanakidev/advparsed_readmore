@@ -185,7 +185,7 @@ class ParsedReadMoreState extends State<ParsedReadMore> {
                         decoration: TextDecoration.underline),
                 recognizer: TapGestureRecognizer()
                   ..onTap = () {
-                    /**
+                    
                     if (url.length < 8) {
                       url = 'https://$url';
                     } else {
@@ -194,7 +194,7 @@ class ParsedReadMoreState extends State<ParsedReadMore> {
                         url = 'https://$url';
                       }
                     }
-                    **/
+                   
                     try {
                       Uri launchUri = Uri.parse(url);
                       launchUrl(launchUri,
